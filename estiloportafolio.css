@@ -167,33 +167,52 @@ span {
     justify-content: center;   
 }
 
+
+
 .menu {
-    right: 30%;
     position: fixed;
-    overflow-x: hidden; 
-  
+    overflow-x: hidden;
+    top: 90%;
+    left: 60%;
+    transform: translate(-90%, -60%);
 }
 
 .submenu {
-    list-style: none;
+    border-radius: 5rem;
+    background-color: transparent;
     display: flex;
-    justify-content: space-evenly;
-    border-radius: 3rem;
-    background-color: #fff;
-    height: 20%;
-    padding-top: .5rem;
+    gap: 1rem;
+    list-style: none;
+    padding-top: 2rem;
 }
+
+/* figcaption { para poner un texto al pasar el mouse pero no me gusto como quedaba 
+    display: none;
+    transition: all .5s;
+    color: #39ff14;
+    list-style: none;
+}
+
+figure:hover > figcaption {
+    display: block;
+    transition: all 0.5s;
+} */
+
 
 .submenu li img {
     width: 5rem;
     height: 2.5rem;
     border-radius: 8rem;
-    margin-bottom: 1.2rem;       
+    margin-bottom: 1.2rem;     
+    padding-bottom: .6rem;  
+    margin-right: 2rem;
+    background-color: #ffff;
 }
 
 .submenu li img:hover {
     background-color: #39ff14;
 }
+
 
 /* aqui inicia el main */
 
